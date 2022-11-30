@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertActivity"
+    android:background="@drawable/kunu"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/nev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#adadad"
+            android:hint="Név"
+            />
+        <EditText
+            android:id="@+id/orszag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#adadad"
+            android:hint="Ország"
+            />
+        <EditText
+            android:id="@+id/lakossag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#adadad"
+            android:hint="Lakosság"
+
+            />
+
+        <Button
+            android:id="@+id/felvetelgomb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Felvétel"
+
+            />
+        <Button
+            android:id="@+id/visszagomb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vissza"
+
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
